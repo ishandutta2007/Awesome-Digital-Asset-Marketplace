@@ -60,7 +60,7 @@ Below is a comparative breakdown of leading commercial digital product platforms
 
 ## 📦 Open-Source GitHub Projects
 
-Explore self-hosted, fee-light, and privacy-focused open-source digital asset marketplaces and payment engines. **Sorted by GitHub Star Count (Descending)**.
+Explore self-hosted, fee-light, and privacy-focused open-source digital asset marketplaces and payment engines. **Sorted by GitHub Stars_Count (Descending)**.
 
 - **[WooCommerce](https://github.com/woocommerce/woocommerce)**  
   [![Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers)  
@@ -134,7 +134,7 @@ Contributions are warmly welcomed! Please follow these simple steps to add a new
 
 1. 🍴 **Fork** this repository.
 2. 📝 Add or edit entries in `README.md` following the exact table or list format.
-3. 🔗 Include accurate links, pricing details, and star counts.
+3. 🔗 Include accurate links, pricing details, and Stars_Counts.
 4. 🚀 Submit a **Pull Request** with a brief summary of the added platform.
 
 ---
