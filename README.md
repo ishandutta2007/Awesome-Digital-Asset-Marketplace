@@ -189,3 +189,5 @@ Star the repo if you find it useful!
 **Made for creators, indie hackers, and digital product sellers.**  
 
 Let's expand open creator commerce while recognizing the discovery and MoR convenience that leading commercial digital asset platforms deliver.
+# Awesome-Digital-Asset-Marketplace
+
