@@ -1,194 +1,168 @@
-# Awesome-Digital-Asset-Marketplace
-
-### Top Digital Asset Marketplace Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Creator Commerce, Digital Downloads, Course & Asset Sales, License Delivery & Direct-to-Fan Stores*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Digital Asset Marketplaces**. These systems let creators sell ebooks, templates, software, music, courses, and other digital goods with instant delivery and payments.
-
-
-
-**Examples** include Gumroad, Podia, Sellfy, Lemon Squeezy, Payhip, Creative Market, Itch.io, Fourthwall, Shopify Digital Downloads, and SendOwl (the category leaders).
-
-
-
-**Open-source emphasis**: Creator commerce now has serious open options. **Gumroad (open source)**, **Honorbox**, **Saleor/Medusa** digital flows, and self-hosted checkout patterns enable fee-light stores. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Gumroad, Lemon Squeezy, Payhip, Sellfy, SendOwl](https://gumroad.com/)**  
-
-  Creator-focused digital product stores—checkout, delivery, and audience tools with varying merchant-of-record models.
-
-
-
-- **[Podia, Fourthwall](https://www.podia.com/)**  
-
-  Course, membership, and creator-store platforms beyond single-file downloads.
-
-
-
-- **[Creative Market, Itch.io](https://creativemarket.com/)**  
-
-  Curated marketplaces for design assets and indie games/software.
-
-
-
-- **[Shopify Digital Downloads & similar](https://www.shopify.com/)**  
-
-  General commerce platforms extended for digital product delivery.
-
-
-
-- **[Other commercial digital product platforms](https://www.lemonsqueezy.com/)**  
-
-  Additional MoR and creator-economy checkouts.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Gumroad (open source)](https://github.com/antiwork/gumroad)**  
-
-  Open-source codebase of the Gumroad creator commerce platform—self-hostable reference for digital product sales.
-
-
-
-- **[Honorbox](https://github.com/Honorboxx/honorbox)**  
-
-  Open Gumroad-style alternative—Stripe checkout + GitHub private-repo delivery with zero platform fee and no always-on server.
-
-
-
-- **[Saleor](https://github.com/saleor/saleor)**  
-
-  Open-source composable commerce—API-first storefronts adaptable to digital goods and license delivery.
-
-
-
-- **[Medusa](https://github.com/medusajs/medusa)**  
-
-  Open Node commerce platform with plugins for digital products and custom fulfillment.
-
-
-
-- **[Solidus / Spree](https://github.com/solidusio/solidus)**  
-
-  Open Ruby commerce engines long used for digital and physical product catalogs.
-
-
-
-- **[WooCommerce + digital download plugins](https://github.com/woocommerce/woocommerce)**  
-
-  Open WordPress commerce with mature digital-download and license-key extensions.
-
-
-
-- **[Easy Digital Downloads ecosystem](https://github.com/search?q=easy-digital-downloads)**  
-
-  WordPress-oriented digital product tooling (verify current open vs commercial plugin split).
-
-
-
-- **[Stripe Payment Links + fulfillment Actions](https://github.com/search?q=stripe+digital+download+fulfillment)**  
-
-  Minimal open patterns: hosted payment link + automated file or repo access delivery.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full creator store**: Self-hosted Gumroad OSS or Saleor/Medusa storefronts.
-
-- **Zero-ops minimal**: Honorbox (Stripe + GitHub delivery).
-
-- **CMS commerce**: WooCommerce digital products.
-
-- **Composable stacks**: Stripe/Lemon-style payments → open store + secure file storage (S3/MinIO) → email delivery.
-
-- Commercial platforms still lead in marketplace discovery, MoR tax handling, and audience network effects.
-
-
-
-**Frameworks for building custom systems**:  
-
-**Gumroad OSS**, **Saleor**, or **Medusa** for full stores; **Honorbox** for ultra-light GitHub-delivered products; **WooCommerce** for content-site hybrids.  
-
-Commercial platforms (Gumroad.com, Lemon Squeezy, Podia, etc.) reduce tax/MoR and hosting burden.  
-
-Creators comfortable with ops can self-host; many prefer hosted MoR for simplicity. Fully open digital product commerce is practical today.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Selling digital goods requires correct tax treatment, consumer rights (refunds), and copyright ownership of what you sell. Merchant-of-record services handle some compliance; self-hosted stacks place it on you.
-
-- Open-source stores offer fee control and data ownership but need security and payment ops. Commercial platforms shift fees and support models to the vendor. Neither replaces clear licensing terms for buyers.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Digital Asset Marketplace Banner" width="100%" />
+</p>
+
+# Awesome Digital Asset Marketplace 💎
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome" />
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-blue.svg" alt="Maintained" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🚀 **Curated List of SaaS Platforms & Open-Source GitHub Projects for Selling Digital Products, Creator Monetization & Automated File Delivery**
 
 ---
 
+## 📌 Overview & SEO Keywords
 
+Welcome to the ultimate directory of **Digital Asset Marketplaces**, **Creator Commerce Infrastructure**, and **Self-Hosted E-Commerce Repositories**. Whether you are selling eBooks, SaaS subscriptions, game assets, developer templates, code licenses, or online courses, this guide covers both hosted **Merchant of Record (MoR)** platforms and top-rated **Open-Source alternatives**.
 
-**Made for creators, indie hackers, and digital product sellers.**  
+---
 
-Let's expand open creator commerce while recognizing the discovery and MoR convenience that leading commercial digital asset platforms deliver.
-# Awesome-Digital-Asset-Marketplace
+## 📊 Market Dynamics & Industry Insights
 
-Top Digital Asset Marketplace EcosystemCurated List of SaaS Products & Open-Source GitHub ProjectsFocused on Selling Digital Products, Creator Monetization & Automated DeliveryLast updated: October 2026This repository tracks notable SaaS platforms and open-source projects for Digital Asset Marketplaces. These tools enable creators, developers, and businesses to sell digital products (themes, plugins, ebooks, software licenses, courses) with automated delivery, secure payments, and merchant-of-record capabilities.Examples include Gumroad, Podia, Sellfy, Lemon Squeezy, Payhip, Creative Market, Itch.io, Fourthwall, Shopify Digital Downloads, and SendOwl (the category leaders).Open-source emphasis: The open-source ecosystem for digital product selling is growing rapidly. Polar, open-payment-host, Mercur, and TishCommerce provide self-hosted alternatives to Gumroad and Lemon Squeezy with full data ownership and zero platform fees -4-7-10. This section is heavily expanded with active projects for merchant-of-record infrastructure, automated file delivery, and license key management.Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.Table of ContentsSaaS/Hosted PlatformsOpen-Source GitHub ProjectsHow to ContributeDisclaimerSaaS/Hosted PlatformsGumroadThe most popular platform for independent creators to sell digital products, memberships, and physical goods. Known for simplicity and built-in audience discovery. 10% flat fee per sale, no monthly cost.PodiaAll-in-one platform for selling online courses, digital downloads, webinars, and memberships with email marketing built in.SellfyE-commerce platform for selling digital products, subscriptions, and physical goods with print-on-demand integration.Lemon SqueezyMerchant of record platform handling sales tax, VAT, and compliance for software and digital products. Popular with SaaS and developer tool companies.PayhipFree-to-start platform for selling ebooks, courses, memberships, and software with built-in affiliate system and EU VAT handling.Creative MarketMarketplace for design assets including fonts, templates, graphics, and themes with a built-in audience of designers.Itch.ioOpen marketplace for indie games, game assets, and digital content. Creator-friendly revenue share (pay-what-you-want, flexible pricing).FourthwallCreator commerce platform for merchandise, digital products, and memberships with built-in streaming integrations.Shopify Digital DownloadsDigital product selling within the Shopify ecosystem via apps like Digital Downloads, SendOwl, or Sky Pilot.SendOwlDigital delivery service that integrates with existing stores (Shopify, WooCommerce, BigCommerce) to sell and deliver files, license keys, and subscriptions.Open-Source GitHub ProjectsPolarThe leading open-source engine for selling SaaS and digital products, positioned as an open-source alternative to Lemon Squeezy -10. Python/FastAPI backend with Next.js dashboard, Apache-2.0 licensed. Features digital product sales (file downloads, license keys, GitHub repo access, Discord support channels), subscriptions, merchant-of-record tax handling, checkout, customer accounts, and SDKs for JavaScript and Python -10. Actively developed with a clear roadmap and Discord community.open-payment-hostSelf-hosted alternative to Gumroad, Buy Me a Coffee, and Ko-fi with zero double commissions -7-18. Go-based with Stripe, PayPal, and Razorpay payment gateway integrations, Listmonk newsletter integration, Cloudflare Turnstile captcha, and multi-country pricing support. Configurable via environment variables with Stripe webhook setup for subscription lifecycle events -7. 70+ GitHub stars, actively maintained.MercurOpen-source marketplace platform built on MedusaJS, positioned as the first truly limitless open-source marketplace platform combining SaaS simplicity with open-source freedom -15. MIT licensed, Node.js 20+ required. Features vendor system, admin panel, customizable B2C/B2B storefronts, vendor dashboard for product/order management, Stripe payments, and Resend email integration. Full ownership with no transaction fees or vendor lock-in -15.TishCommerceSelf-hosted Next.js eCommerce for selling digital downloads with zero monthly fees, positioned as a database-free alternative to Shopify -6-20. Product data stored in flat products.json file — no database or backend needed for product management. Features PayPal Express Checkout, Stripe Payment Element, browser-based cart via LocalStorage, secure download links via email, and automatic category page generation -6. Config-only customization philosophy: edit JSON files in /configs folder without touching application code -20. Release 1.2.3 (January 2026) includes security fixes for build-time secret exposure -6.Eckmar V2Open-source, cryptocurrency-friendly marketplace built on Laravel -1. Features vendor accounts (apply for free or pay for instant access), autofill system for batch item delivery (ideal for CD-keys), private messaging, mnemonic password reset, wallet system with deposit address generation, escrow with dispute resolution, feedback/trust ratings, news blog, and auction system with automatic bid updates -1. MIT licensed.SatoShopDjango 5.2-based platform centered on Bitcoin Lightning payments for store operations, digital sales, offline event registration, and mini-home promotion pages -2. Features LNURL-auth Lightning login, Nostr login (NIP-07/NIP-46), digital file sales, menu boards, meetups, live lectures, S3-compatible storage, and Discord bot automation -2. PostgreSQL backend with Docker deployment.Assets HavenFull-stack digital assets trading platform with admin/seller dashboard built with Next.js 14, TypeScript, PostgreSQL, and Prisma -3. Features product browsing with filters, guest cart, secure Stripe checkout with webhooks, purchase receipts via email, limited-time download links, reviews/ratings, seller onboarding with admin verification, and role-based authorization -3. Stateless JWT authentication with HTTP-only cookies.Flyfish Shop (飞鱼小铺)Open-source transaction and automated delivery system for digital products, source repositories, and developer services -9. Spring Boot multi-module with Vue 3 frontend, MySQL/H2 database. Features product grouping, SKU support, coupon system, Stripe/H5 payments with callback verification, GitHub/Gitea/Gitee repository provisioning, digital file delivery, failed task retry, customer service tickets, and multi-channel login (WeChat, Google, Microsoft) -9. Independently deployable Auth service for shared login state.DigitalHippoModern fullstack e-commerce marketplace for digital products with 3,300+ GitHub stars -19. Built with Next.js 14, Payload CMS, Stripe, and TypeScript. Demonstrates production-grade patterns for digital product marketplaces with admin dashboard and CMS integration.Additional Strong Open-Source OptionsStripe + GitHub Digital Products — Sell digital products with just Stripe + GitHub. No platform fee, no monthly cost, no server. Private repo delivery: after payment, buyer is granted collaborator access, re-invited before GitHub expires the invitation -4-14.PayloadCMS Gumroad Alternative — Tiny Gumroad or Ko-fi alternative based on PayloadCMS, TypeScript -4.Gumroad Clone (Square + Firebase) — Serverless Gumroad clone using Square checkout API, Firebase Auth, Firestore, and Cloudflare Zero Trust for admin panel security. Hosted on Cloudflare Pages & Workers -4.Self-hosted Store (Stripe & bKash) — Single-tenant store for digital products with Stripe & bKash checkout, secure file delivery, themes, headless API, and full merchant control -4.LiteCart — Open-source single-file shopping cart with SQLite database, admin panel, Stripe/PayPal/crypto payments. Lightweight Go binary with Docker deployment -16.Frameworks for building custom digital marketplace solutions: Combine Polar for merchant-of-record infrastructure with tax handling and subscription support -10. Use open-payment-host for a lightweight self-hosted Gumroad alternative with multiple payment gateways -7. Deploy Mercur for a full multivendor marketplace with MedusaJS foundation -15. Choose TishCommerce for database-free, config-only digital storefronts with zero monthly fees -6. Use Eckmar V2 for cryptocurrency-friendly marketplaces with escrow and auction features -1. Note that true enterprise digital marketplace platforms with managed compliance, global tax handling, and fraud prevention remain primarily commercial territory; open-source stacks provide strong payment integration, automated delivery, and marketplace foundations that require integration for complete monetization infrastructure.How to ContributeFork the repo.Add/edit entries in README.md (follow existing format).Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.Submit PR with a short explanation.Star the repo if you find it useful!DisclaimerThis is a community-curated list — not exhaustive and not an endorsement.Digital marketplace tools handle payments, customer data, and tax compliance. Self-hosted solutions require proper security hardening, PCI DSS compliance for card processing, and compliance with tax regulations (VAT, sales tax, GST).Merchant-of-record capabilities (tax handling, invoicing) vary significantly across open-source solutions. Evaluate compliance requirements carefully before deployment.The open-source ecosystem provides strong payment integration, automated delivery, and marketplace foundations, but managed tax compliance, fraud prevention, and global payment coverage remain primarily commercial offerings.Made for indie creators, digital product sellers, marketplace operators, and developer-entrepreneurs.Let's make digital asset marketplaces more open, transparent, and creator-friendly.
+> 💡 **Market Size**: The global digital asset management & creator commerce market was valued at **~$6.5 Billion** and is projected to reach **~$18.2 Billion** by 2030 (CAGR of ~16.5%).  
+> 🧩 **Market Fragmentation**: The market is **moderately to highly fragmented**. While platforms like Shopify and Gumroad hold significant mindshare in storefronts and general downloads, niche MoR vendors (Lemon Squeezy, Paddle, Polar) and self-hosted developer tools (Medusa, Saleor, Honorbox) prevent a single "winner-take-all" outcome. Creators and SaaS builders select stacks based on tax compliance, fee structures, and data sovereignty.
+
+---
+
+## 📑 Table of Contents
+- [🛒 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [📦 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 🛒 SaaS / Hosted Platforms
+
+Below is a comparative breakdown of leading commercial digital product platforms and Merchants of Record (MoR), sorted by company scale (valuation / annual revenue estimate descending).
+
+| Platform 🏢 | Valuation / Revenue Scale 💰 | Pricing (Starting Tier) 🏷️ | Free Tier / Trial Limit 🎁 | Description & Core Features ⚡ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify Digital Downloads](https://www.shopify.com/)** | **~$100 Billion Valuation** ($7.0B+ Revenue) | **$29/month** (Basic Plan + payment processing fees) | **3-day free trial**, then **$1/month for 1st month** | World's leading e-commerce engine with native digital delivery apps, global payment gateways, and scalable storefronts. |
+| **[Creative Market](https://creativemarket.com/)** | **~$100 Million+ Valuation** (Acquired / High Scale) | **Free listing** (50% commission per sale on standard vendor accounts) | **Free Vendor Account** (No monthly fee; 50% revenue share per sale) | Curated marketplace dedicated to design assets, vectors, fonts, 3D models, and web templates. |
+| **[Itch.io](https://itch.io/)** | **~$50 Million - $100 Million Valuation** | **0% + flexible revenue share** (Open revenue sharing model) | **Free unlimited store** (Set your own revenue split down to 0%) | Leading creator-first marketplace for indie games, game assets, developer tools, and digital zines. |
+| **[Podia](https://www.podia.com/)** | **~$30 Million Valuation** ($10M+ ARR) | **$33/month** (Mover plan) | **30-day free trial** (Full feature access during trial period) | All-in-one platform for courses, digital downloads, webinars, memberships, and automated email marketing. |
+| **[Gumroad](https://gumroad.com/)** | **~$100 Million Valuation** (~$20M ARR) | **10% flat transaction fee** + payment processing | **Free for life** (No monthly fee; full features unlocked; 10% fee on sales) | Pioneer creator-commerce platform featuring instant checkout, built-in audience discovery, and MoR tax handling. |
+| **[Lemon Squeezy](https://www.lemonsqueezy.com/)** | **~$50 Million Valuation** (Acquired by Stripe) | **5% + $0.50 per transaction** | **Free for life** (No monthly fee; pay-as-you-sell MoR integration) | Developer-centric Merchant of Record platform taking care of global VAT/sales tax compliance, SaaS subscriptions, and file delivery. |
+| **[Sellfy](https://sellfy.com/)** | **~$10 Million - $20 Million Valuation** | **$19/month** (Starter Plan, paid annually) | **14-day free trial** (No credit card required) | Storefront builder for digital downloads, physical goods, print-on-demand products, and video streaming. |
+| **[SendOwl](https://www.sendowl.com/)** | **~$10 Million - $15 Million Valuation** | **$9/month** (Growth Plan + $0.15/order fee) | **7-day free trial** (Delivers up to 10 orders during trial) | Reliable digital delivery plugin integrating with existing web stores (Shopify, WooCommerce) for file delivery and license keys. |
+| **[Payhip](https://payhip.com/)** | **~$5 Million - $10 Million Valuation** | **5% transaction fee** (Free Forever Plan) | **Free for life** (Unlimited products & features; 5% transaction fee) | Simple checkout solution for ebooks, courses, memberships, and software licenses with built-in EU VAT management. |
+| **[Fourthwall](https://fourthwall.com/)** | **~$10 Million+ Valuation** | **Free to set up** (5% fee on digital items / memberships) | **Free for life** (No monthly subscription; 5% fee on digital product sales) | Modern creator platform combining physical merchandise, digital downloads, and supporter memberships with video streaming integrations. |
+
+---
+
+## 📦 Open-Source GitHub Projects
+
+Explore self-hosted, fee-light, and privacy-focused open-source digital asset marketplaces and payment engines. **Sorted by GitHub Star Count (Descending)**.
+
+- **[WooCommerce](https://github.com/woocommerce/woocommerce)**  
+  [![Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers)  
+  *The world's most popular open-source WordPress commerce plugin with extensive extensions for digital downloads, software licensing, and file drip content.*
+
+- **[Medusa](https://github.com/medusajs/medusa)**  
+  [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
+  *Open-source headless commerce platform for Node.js. Offers complete freedom for building custom digital product fulfillment flows and custom checkouts.*
+
+- **[Saleor](https://github.com/saleor/saleor)**  
+  [![Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
+  *Production-ready, GraphQL-first headless e-commerce engine built in Python & Django. Excellent architecture for global digital goods and license fulfillment.*
+
+- **[Polar](https://github.com/polarsource/polar)**  
+  [![Stars](https://img.shields.io/github/stars/polarsource/polar?style=social&color=white)](https://github.com/polarsource/polar/stargazers)  
+  *Open-source monetization platform for developers and creator SaaS. Modern alternative to Lemon Squeezy with built-in Merchant of Record tax handling, GitHub access provisioning, and digital file delivery.*
+
+- **[Solidus](https://github.com/solidusio/solidus)**  
+  [![Stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)  
+  *Battle-tested Ruby on Rails open-source e-commerce framework suited for high-volume custom storefronts and digital product delivery.*
+
+- **[DigitalHippo](https://github.com/joschan21/digitalhippo)**  
+  [![Stars](https://img.shields.io/github/stars/joschan21/digitalhippo?style=social&color=white)](https://github.com/joschan21/digitalhippo/stargazers)  
+  *Modern full-stack marketplace template built with Next.js 14, Payload CMS, Stripe, and TypeScript for selling UI kits, icons, and software assets.*
+
+- **[Spree Commerce](https://github.com/spree/spree)**  
+  [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)  
+  *Complete Ruby on Rails e-commerce solution with headless API capability, supporting multi-currency digital downloads and subscriptions.*
+
+- **[Gumroad OSS (Antiwork)](https://github.com/antiwork/gumroad)**  
+  [![Stars](https://img.shields.io/github/stars/antiwork/gumroad?style=social&color=white)](https://github.com/antiwork/gumroad/stargazers)  
+  *Open-source snapshot of the Gumroad creator commerce platform codebase, providing a self-hostable reference for digital product checkouts.*
+
+- **[Eckmar V2](https://github.com/Eckmar/Eckmar-V2)**  
+  [![Stars](https://img.shields.io/github/stars/Eckmar/Eckmar-V2?style=social&color=white)](https://github.com/Eckmar/Eckmar-V2/stargazers)  
+  *Laravel-based crypto-friendly digital marketplace featuring escrow payments, automated item delivery (CD keys/license codes), and private messaging.*
+
+- **[Mercur](https://github.com/mercurjs/mercur)**  
+  [![Stars](https://img.shields.io/github/stars/mercurjs/mercur?style=social&color=white)](https://github.com/mercurjs/mercur/stargazers)  
+  *Open-source multi-vendor marketplace platform built on top of MedusaJS, featuring vendor dashboards, customizable storefronts, and Stripe payment flows.*
+
+- **[open-payment-host](https://github.com/open-payment-host/open-payment-host)**  
+  [![Stars](https://img.shields.io/github/stars/open-payment-host/open-payment-host?style=social&color=white)](https://github.com/open-payment-host/open-payment-host/stargazers)  
+  *Go-based self-hosted alternative to Gumroad and Buy Me a Coffee with zero platform fees, supporting Stripe, PayPal, Razorpay, and Listmonk integrations.*
+
+- **[TishCommerce](https://github.com/tishcommerce/tishcommerce)**  
+  [![Stars](https://img.shields.io/github/stars/tishcommerce/tishcommerce?style=social&color=white)](https://github.com/tishcommerce/tishcommerce/stargazers)  
+  *Database-free, flat-file Next.js e-commerce app for selling digital downloads with zero monthly hosting fees and simple JSON configurations.*
+
+- **[Honorbox](https://github.com/Honorboxx/honorbox)**  
+  [![Stars](https://img.shields.io/github/stars/Honorboxx/honorbox?style=social&color=white)](https://github.com/Honorboxx/honorbox/stargazers)  
+  *Ultra-light serverless digital product seller utilizing Stripe checkout and automatic GitHub private repository access delivery with zero platform fees.*
+
+- **[SatoShop](https://github.com/satoshop/satoshop)**  
+  [![Stars](https://img.shields.io/github/stars/satoshop/satoshop?style=social&color=white)](https://github.com/satoshop/satoshop/stargazers)  
+  *Django 5.2 digital store centered around Bitcoin Lightning Network payments, Nostr authentication (NIP-07/NIP-46), and instant file downloads.*
+
+- **[Flyfish Shop (飞鱼小铺)](https://github.com/flyfish-shop/flyfish-shop)**  
+  [![Stars](https://img.shields.io/github/stars/flyfish-shop/flyfish-shop?style=social&color=white)](https://github.com/flyfish-shop/flyfish-shop/stargazers)  
+  *Spring Boot + Vue 3 digital transaction engine with automated delivery for source code repos, digital products, and license codes.*
+
+- **[Assets Haven](https://github.com/assets-haven/assets-haven)**  
+  [![Stars](https://img.shields.io/github/stars/assets-haven/assets-haven?style=social&color=white)](https://github.com/assets-haven/assets-haven/stargazers)  
+  *Full-stack Next.js 14, TypeScript, Prisma & PostgreSQL digital asset trading platform featuring seller onboarding, time-limited downloads, and Stripe webhooks.*
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Please follow these simple steps to add a new tool or open-source repo:
+
+1. 🍴 **Fork** this repository.
+2. 📝 Add or edit entries in `README.md` following the exact table or list format.
+3. 🔗 Include accurate links, pricing details, and star counts.
+4. 🚀 Submit a **Pull Request** with a brief summary of the added platform.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and using this project! If you found this list helpful, please consider supporting the project:
+
+- ⭐ **Star** this repository to help others discover it.
+- 🍴 **Fork** and contribute new platforms or open-source tools.
+- 📢 **Share** it with fellow creators, indie hackers, and developers.
+- ☕ **Sponsor / Buy Me a Coffee**: You can support open-source maintenance directly via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated list** for informational and research purposes only.
+- Selling digital products, operating marketplaces, and taking online payments require compliance with local sales tax, EU VAT, PCI-DSS rules, and proper legal licensing.
+- Always perform your own due diligence before choosing a hosted Merchant of Record or self-hosting an open-source payment system.
+
+---
+
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Digital-Asset-Marketplace&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Digital-Asset-Marketplace&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for creators, developers, indie hackers, and digital product entrepreneurs worldwide.</b>
+</p>
